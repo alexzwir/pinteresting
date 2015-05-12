@@ -11,12 +11,10 @@ gem 'bootstrap-sass', '~> 3.3.4.1'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise','~> 3.4.1'
+gem 'paperclip', github: 'thoughtbot/paperclip'
 
 group :development, :test do
   gem 'sqlite3'
-  gem 'byebug'
-  gem 'web-console', '~> 2.0'
-  gem 'spring'
 end
 
 group :production do
