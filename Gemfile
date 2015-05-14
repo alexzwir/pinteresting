@@ -12,7 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise','~> 3.4.1'
 gem 'paperclip', github: 'thoughtbot/paperclip'
-gem 'aws-sdk', '~> 2.0.42'
+gem 'aws-sdk', '< 2.0'
 
 group :development, :test do
   gem 'sqlite3'
