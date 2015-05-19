@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url("http://fonts.googleapis.com/css?family=Ubuntu");
 
 $body-bg: #ecf0f1;
 $font-family-sans-serif:'Ubuntu', sans-serif;
@@ -7,6 +7,7 @@ $navbar-height: 50px;
 $navbar-default-link-color: black;
 $navbar-default-brand-color:#c72527;
 
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
 
 .center {
