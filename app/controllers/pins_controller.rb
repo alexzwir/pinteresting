@@ -4,7 +4,7 @@ class PinsController < ApplicationController
   before_action :authenticate_user!, except: [:index, :show]
 
   def index
-    @pins = Pin.all
+    @pins = Pin.all.order("created_at DESC")
   end
 
   def show
@@ -55,3 +55,4 @@ class PinsController < ApplicationController
       params.require(:pin).permit(:description, :image)
     end
 end
+
